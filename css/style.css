@@ -1,0 +1,136 @@
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding:0px;
+    margin: 0px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #1f2937;
+    color: white;
+    margin:0px;
+    padding: 0px 50px 90px;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    gap: 10px;
+    font-size: 13px;
+}
+
+.subheader{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    
+    
+}
+
+.blockright{
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    margin-right:0px;
+}
+
+.lighter{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    max-width: 500px;
+}
+
+.white{
+    padding: 0px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.items{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    font-size: 10px;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap:10px
+}
+
+.bluebox{
+    flex-grow: 1;
+    flex-shrink: 1;
+ min-height: 50px;
+    border-color: #6587b7;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+  }
+
+.grey{
+    padding: 0px 50px;
+    background-color: rgb(228, 227, 227);
+    padding: 70px 250px;
+  }
+
+.quotetext{
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}  
+
+.quotesignature{
+    color: #1f2937;
+    text-align: right;
+}
+
+.cta{
+    padding: 0px 50px;
+}
+
+.footer{
+    padding: 0px 50px;
+}
+
+.upper{
+    background-color: cadetblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+}

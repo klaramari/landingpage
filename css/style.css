@@ -118,11 +118,34 @@ a{
 }
 
 .cta{
-    padding: 0px 50px;
+    padding: 150px;
+}
+
+.blue{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.signup{
+    background-color: dodgerblue;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    max-height: 40px;
+    min-height: 30px;
 }
 
 .footer{
     padding: 0px 50px;
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 10px
 }
 
 .upper{
@@ -133,4 +156,8 @@ a{
     border-style: none;
     color: white;
     font-size: 20px;
+}
+
+.blockright.middle{
+    align-items: center;
 }
